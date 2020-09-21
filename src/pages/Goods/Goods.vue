@@ -109,7 +109,7 @@ export default {
     },
     methods: {
         currentChange(page) {
-            console.log(page)
+            
             this.current = page;
             this.getList()
         },
