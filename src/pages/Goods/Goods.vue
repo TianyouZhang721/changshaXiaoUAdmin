@@ -112,7 +112,7 @@ export default {
             
             this.current = page;
             this.getList()
-            console.log("我怎么这么好看")
+            console.log("我怎么这么帅")
         },
         getList () {
             this.$http.get("/goodslist", { page: this.current, size: 2 }).then(res => {
